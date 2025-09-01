@@ -2,7 +2,6 @@
 
  const express = require('express');
  const routes = require('./routes.js');
-
  class App {
     constructor(){
         this.app = express(); 
